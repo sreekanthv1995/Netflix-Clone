@@ -24,11 +24,15 @@
     width: 100%;
     box-sizing: content-box;
     transition: transform 450ms;
+    margin-right: 7px;
 }
 .rowimg:hover{
-    transform: scale(1.08);
+    transform: scale(1.09);
     cursor: pointer;
 }
 .largeposter{
     max-height: 300px;
+}
+.rowposter::-webkit-scrollbar{
+    display: none;
 }
