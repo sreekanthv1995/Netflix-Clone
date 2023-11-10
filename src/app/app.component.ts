@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'Netflix';
   navbg:any;
   @HostListener('document:scroll') scrollover(){
-    console.log(document.body.scrollTop,'scrollLength');
+    console.log(document.body.scrollTop,'scrollLength#');
     
     if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
       this.navbg = {
@@ -17,7 +17,7 @@ export class AppComponent {
       }
 
     }else{
-      this.navbg = { }
+      this.navbg = {}
     }
   }
 }
